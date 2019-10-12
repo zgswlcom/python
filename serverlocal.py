@@ -18,7 +18,7 @@ def handle_request(client):
 def main():
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.bind(('103.45.177.21', 8001))
+    sock.bind(('localhost', 8008))
     sock.listen(5)
 
     while True:
