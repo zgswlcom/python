@@ -11,7 +11,7 @@ def handle_request(client):
     buf = client.recv(1024)
     client.send("HTTP/1.1 200 OK\r\n\r\n".encode("utf8"))
 #    client.send("<h1 style='color:red'>Hello, yuan</h1>".encode("utf8"))
-    with open('index.ht=ml','rb') as f:
+    with open('index.html','rb') as f:
         data=f.read()
     client.send(data)
 
