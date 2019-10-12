@@ -10,7 +10,7 @@ import os
 import signal
 import socket
 
-SERVER_ADDRESS = (HOST, PORT) = '', 8888
+SERVER_ADDRESS = (HOST, PORT) = '103.45.177.21', 8888
 REQUEST_QUEUE_SIZE = 1024
 
 
